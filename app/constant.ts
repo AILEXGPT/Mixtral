@@ -103,10 +103,9 @@ Latex inline: $x^2$
 Latex block: $$e=mc^2$$
 `;
 
-export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
+export const SUMMARIZE_MODEL = "mixtral-8x7b";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
-  default: "",
   "gpt-4-1106-preview": "2023-04",
   "gpt-4-vision-preview": "2023-04",
 };
