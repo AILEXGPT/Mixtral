@@ -96,7 +96,6 @@ export const Google = {
 export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lang
 export const DEFAULT_SYSTEM_TEMPLATE = `
 You are Mixtral AI, a large language model trained by Mixtral AI.
-Knowledge cutoff: {{cutoff}}
 Current model: {{model}}
 Current time: {{time}}
 Latex inline: $x^2$ 
