@@ -95,7 +95,7 @@ export const Google = {
 
 export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lang
 export const DEFAULT_SYSTEM_TEMPLATE = `
-You are ChatGPT, a large language model trained by OpenAI.
+You are Mixtral AI, a large language model trained by Mixtral AI.
 Knowledge cutoff: {{cutoff}}
 Current model: {{model}}
 Current time: {{time}}
@@ -106,7 +106,7 @@ Latex block: $$e=mc^2$$
 export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
-  default: "2021-02",
+  default: "",
   "gpt-4-1106-preview": "2023-04",
   "gpt-4-vision-preview": "2023-04",
 };
